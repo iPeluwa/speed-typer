@@ -1,5 +1,6 @@
 <!-- view -->
 <template>
+
     <h1>Speed Typer</h1>
     <p>
         <span :class="{correct: keyword.correct, wrong: keyword.wrong, pending: keyword.pending}"

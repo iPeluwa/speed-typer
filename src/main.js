@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
 import App from './HelloWorld.vue'
-require('vue-faker');
+import './index.css'
 
 createApp(App).mount('#app')
